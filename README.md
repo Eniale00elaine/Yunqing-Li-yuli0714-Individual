@@ -52,6 +52,7 @@ Perlin noise is used to control:
 * Band color variation and subtle vibration in Mode A
 * Subtle shaking of the cat image in Mode B
 * Smooth transitions for parameters that should not jump randomly
+
 Example:
 
 let n = noise(frameCount * 0.01);
@@ -102,10 +103,15 @@ Techniques used for mouse hover pause function:
 * Optional “PAUSED” overlay text
 
 Example:
+
 When the mouse enters the canvas:
+
 paused = true;
+
 When the mouse leaves:
+
 paused = false;
+
 Inside draw():
 
 if (paused) {
