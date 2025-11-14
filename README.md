@@ -35,7 +35,8 @@ https://editor.p5js.org/manasvihow/sketches/TnI2BDD1Z
 Another reference for my individual assignment is this piece by Samuel YAN. The smooth color transitions controlled by Perlin noise served as the main reference for my implementation.
 https://openprocessing.org/sketch/2693579
 
-技术解释
+Technical Explanation
+
 1. Perlin Noise–Driven Animation
 Perlin noise is used to control:
 * Band color variation and subtle vibration in Mode A
@@ -58,6 +59,7 @@ Layer order is achieved by controlling the draw sequence:
 * Bands (top layer)
 p5.js does not have native layering APIs; the order in which elements are drawn determines their z-order.
 
+Source:
 2D rendering order in p5.js: https://p5js.org/learn/coordinate-system-and-shapes.html
 
 3. Counters + Auto-Reset Mechanism (Reset after 19 items)
@@ -72,7 +74,6 @@ Source:
 p5.js program flow: https://p5js.org/learn/program-flow.html
 
 4. Random Cat Position Every Time It Appears
-
 The cat appears once per cycle and is positioned randomly in Mode B:
 
 catX = floor(random(cols)) * cellSize;
