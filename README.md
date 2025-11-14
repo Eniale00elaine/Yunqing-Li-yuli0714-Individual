@@ -29,16 +29,16 @@ My prototype focuses on leveraging variations in Perlin noise values not only to
 
 ### Inspiration Sources
 
-### *Broadway Boogie Woogie*
+#### *Broadway Boogie Woogie*
 
 Our primary inspiration is this abstract painting by Piet Mondrian. The varied lengths of bands and diverse rectangles that compose the artwork inspired our use of array management to construct the foundational animation effect.
 
-### *Cat Distribution System*
+#### *Cat Distribution System*
 
 My individual assignment references this work created by Manasvi. The randomness in the placement of cat avatars across different positions in the artwork provided guidance for the effects presented in Mode B of my assignment.
 https://editor.p5js.org/manasvihow/sketches/TnI2BDD1Z
 
-### *Untitled_time6*
+#### *Untitled_time6*
 
 Another reference for my individual assignment is this piece by Samuel YAN. The smooth color transitions controlled by Perlin noise served as the main reference for my implementation.
 https://openprocessing.org/sketch/2693579
