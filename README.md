@@ -36,11 +36,13 @@ Our primary inspiration is this abstract painting by Piet Mondrian. The varied l
 #### *Cat Distribution System*
 
 My individual assignment references this work created by Manasvi. The randomness in the placement of cat avatars across different positions in the artwork provided guidance for the effects presented in Mode B of my assignment.
+
 https://editor.p5js.org/manasvihow/sketches/TnI2BDD1Z
 
 #### *Untitled_time6*
 
 Another reference for my individual assignment is this piece by Samuel YAN. The smooth color transitions controlled by Perlin noise served as the main reference for my implementation.
+
 https://openprocessing.org/sketch/2693579
 
 ### Technical Explanation
