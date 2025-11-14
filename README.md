@@ -10,12 +10,19 @@ I retained the spacebar interaction from the group project—pressing the spaceb
 Driving Method
 
 I have chosen Perlin noise and randomness as the animation approach for my individual project, primarily utilizing Perlin noise and stochastic values to control color transitions of the shapes and the oscillation frequency of their movements. This method better captures the rhythmic arrangement of lines and blocks in Mondrian’s Broadway Boogie Woogie, making the entire composition more vibrant and engaging.
+
 Load page — animation begins automatically (A mode or B mode depending on state).
+
 Press SPACE — toggle between Mode A and Mode B:
+
 Mode A: bands dominate (Perlin noise controls band color/shake).
+
 Mode B: grid/cells dominate (Perlin noise controls cell color/shake) and cat logic is active.
+
 Mouse hover over the canvas — pause all animations and show a “PAUSED” overlay. Move the mouse out of the canvas to resume.
+
 Observe — bands and cells appear sequentially; when either bands or cells reach 19 elements the sketch resets.
+
 Cat behavior (Mode B) — cat sprite appears in an empty cell, grows from 0 to the cell size, holds briefly, then shrinks and disappears. The cat flips horizontally sometimes.
 
 Distinctiveness from Others
@@ -25,13 +32,16 @@ My prototype focuses on leveraging variations in Perlin noise values not only to
 Inspiration Sources
 
 *Broadway Boogie Woogie*
+
 Our primary inspiration is this abstract painting by Piet Mondrian. The varied lengths of bands and diverse rectangles that compose the artwork inspired our use of array management to construct the foundational animation effect.
 
 *Cat Distribution System*
+
 My individual assignment references this work created by Manasvi. The randomness in the placement of cat avatars across different positions in the artwork provided guidance for the effects presented in Mode B of my assignment.
 https://editor.p5js.org/manasvihow/sketches/TnI2BDD1Z
 
 *Untitled_time6*
+
 Another reference for my individual assignment is this piece by Samuel YAN. The smooth color transitions controlled by Perlin noise served as the main reference for my implementation.
 https://openprocessing.org/sketch/2693579
 
