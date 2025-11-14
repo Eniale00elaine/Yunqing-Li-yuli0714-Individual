@@ -1,4 +1,4 @@
-# Function prototype of individual artwork-Bands, Cells & Cat
+# Function prototype of individual artwork —— Bands, Cells & Cat
 
 ## 1.Interaction Instructions
 
