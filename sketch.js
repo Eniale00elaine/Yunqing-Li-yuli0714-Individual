@@ -1,6 +1,6 @@
-const COL_Y=[255,233,109],  // Yellow
-      COL_R=[206,41,35],    // Red
-      COL_B=[130,180,255],  // Blue
+const COL_Y=[255,233,109],  
+      COL_R=[206,41,35],    
+      COL_B=[130,180,255],  
       COL_K=[30];
 
 const BAND_RATIO=0.025, HEADER_TEXT='SPACE TO SWITCH', EPS=0.015;
@@ -21,10 +21,10 @@ let targetX, targetY, targetSize;
 let catSpeed=0.08, catHoldTime=500;
 let catTimer=0, catFlip=false;
 
-let paused=false; // 鼠标悬停暂停标记
+let paused=false; 
 
 function preload(){
-  catImg = loadImage("cat.png"); // 请将 cat.png 放在同目录
+  catImg = loadImage("cat.png"); 
 }
 
 function setup(){
@@ -35,7 +35,7 @@ function setup(){
   catX = width/2; catY = height/2; catSize = 50;
   targetX = catX; targetY = catY; targetSize = catSize;
 
-  // 鼠标悬停暂停
+  
   let c = document.querySelector('canvas');
   c.addEventListener('mouseenter',()=>paused=true);
   c.addEventListener('mouseleave',()=>paused=false);
@@ -87,15 +87,12 @@ function draw(){
   }
 }
 
-// ============================
-// 重置 A/B 模式
-// ============================
+
 function resetA(){ vertsA=[]; horzsA=[]; intersectionColors.clear(); nextVertical.A=Math.random()<.5; }
 function resetB(){ vertsB=[]; horzsB=[]; filledCells.clear(); nextVertical.B=Math.random()<.5; catActive=false; catCell=null; }
 
-// ============================
-// 猫头逻辑
-// ============================
+
+
 function catCellLogic(n, now){
   if(!catImg || vertsB.length<2 || horzsB.length<2) return;
   const E=innerEdges();
@@ -143,9 +140,7 @@ function catCellLogic(n, now){
   }
 }
 
-// ============================
-// 核心动画函数
-// ============================
+
 function bandThickness(){ return min(width,height)*BAND_RATIO; }
 function timerNext(){ setTimeout(()=>beginNext(),500); }
 
@@ -172,9 +167,7 @@ function nextBand(which){
   return {vertical, posRel:random(margin,1-margin), direction:random(['forward','backward'])}; 
 }
 
-// ============================
-// 带动画 & 震动
-// ============================
+
 function bandAnim(b,col,n){ 
   const t=bandThickness()*(0.8+0.4*n), p=constrain((millis()-animStart)/1000,0,1);
   fill(col);
@@ -276,9 +269,7 @@ function cellsDraw(n){
   } 
 }
 
-// ============================
-// 绘制条带
-// ============================
+
 function drawBands(verts,horzs,t,col){
   rectMode(CENTER);
   fill(col);
@@ -298,9 +289,7 @@ function drawBands(verts,horzs,t,col){
   }
 }
 
-// ============================
-// 工具函数
-// ============================
+
 function keyVH(vx,hy){ return `${vx.toFixed(4)}|${hy.toFixed(4)}`; }
 function colorByNoise(n){
   if(n<0.33){ let t=map(n,0,0.33,0,1); return [lerp(COL_R[0],COL_Y[0],t),lerp(COL_R[1],COL_Y[1],t),lerp(COL_R[2],COL_Y[2],t)]; } 
@@ -309,17 +298,13 @@ function colorByNoise(n){
 }
 function randomColor(){ return random([COL_R,COL_Y,COL_B]); }
 
-// ============================
-// Header
-// ============================
+
 function headerInit(){ const div=document.createElement('div'); div.id='headerText'; div.style.display='flex'; div.style.justifyContent='center'; div.style.fontFamily='sans-serif'; div.style.fontWeight='700'; div.style.margin='10px 0'; document.body.prepend(div); headerLayout(); }
 function headerLayout(){ const div=document.getElementById('headerText'); const fs=Math.max(18,Math.min(42,Math.round(window.innerWidth/28))); div.style.fontSize=fs+'px'; }
 function headerDraw(){ const div=document.getElementById('headerText'); let html=''; const n=noise(frameCount*noiseSpeed*2); const cMix=color(...colorByNoise(n)); for(let i=0;i<HEADER_TEXT.length;i++){ const rgb=`rgb(${red(cMix)},${green(cMix)},${blue(cMix)})`; html+=`<span style="display:inline-block;width:1.2em;text-align:center;color:${rgb}">${HEADER_TEXT[i]}</span>`; } div.innerHTML=html; }
 function headerColorsReset(){ headerColors.length=0; for(let i=0;i<HEADER_TEXT.length;i++) headerColors.push(color(...colorByNoise(noise(i*0.2)))); headerLastUpdate=millis(); headerDraw(); }
 
-// ============================
-// 切换模式
-// ============================
+
 function keyPressed(){ 
   if(key===' '){
     animating=false; action='band'; animBand=null;
