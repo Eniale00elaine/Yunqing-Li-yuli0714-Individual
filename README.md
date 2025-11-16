@@ -31,7 +31,7 @@ My prototype focuses on leveraging variations in Perlin noise values not only to
 
 #### *Broadway Boogie Woogie & Composition with Red, Blue and Yellow*
 
-Our primary inspiration is this abstract painting by Piet Mondrian. The varied lengths of bands and diverse rectangles that compose the artwork inspired our use of array management to construct the foundational animation effect. We also draw from Mondrian’s Composition with Red, Blue and Yellow, whose clear geometric structure and balanced placement of primary colours informed our grid organisation and overall compositional logic.
+Our primary inspiration is this abstract painting by Piet Mondrian. The varied lengths of bands and diverse rectangles that compose the artwork inspired our use of array management to construct the foundational animation effect (Museum of Modern Art, n.d.). We also draw from Mondrian’s Composition with Red, Blue and Yellow, whose clear geometric structure and balanced placement of primary colours informed our grid organisation and overall compositional logic (Tate, n.d.)
 
 #### *Cat Distribution System*
 
@@ -160,6 +160,9 @@ https://editor.p5js.org/manasvihow/sketches/TnI2BDD1Z
 * Mozilla Developer Network. (n.d.). JavaScript functions. Retrieved from
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions
 
+* Museum of Modern Art. (n.d.). Broadway Boogie Woogie by Piet Mondrian.
+https://www.moma.org/collection/works/78682
+
 * Perlin, K. (1985). An image synthesizer. ACM SIGGRAPH Computer Graphics, 19(3), 287–296. https://doi.org/10.1145/325165.325247
 
 * p5.js. (n.d.). noise(). Retrieved from https://p5js.org/reference/#/p5/noise
@@ -175,6 +178,9 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions
 * p5.js. (n.d.). Program flow. Retrieved from https://p5js.org/learn/program-flow.html
 
 * p5.js. (n.d.). Coordinate system and shapes. Retrieved from https://p5js.org/learn/coordinate-system-and-shapes.html
+
+* Tate. (n.d.). Composition with Red, Blue and Yellow by Piet Mondrian.
+https://www.tate.org.uk/art/artworks/mondrian-composition-with-red-blue-and-yellow-t00648
 
 * Yan, S. (2024). Untitled_time6 [Generative art sketch].
 https://openprocessing.org/sketch/2693579
