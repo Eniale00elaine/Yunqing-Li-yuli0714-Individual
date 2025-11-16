@@ -152,6 +152,14 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions
 
 ### References
 
+* Manasvi. (n.d.). Cat distribution system [p5.js sketch].
+https://editor.p5js.org/manasvihow/sketches/TnI2BDD1Z
+
+* Mozilla Developer Network. (n.d.). EventTarget.addEventListener(). Retrieved from https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener
+
+* Mozilla Developer Network. (n.d.). JavaScript functions. Retrieved from
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions
+
 * Perlin, K. (1985). An image synthesizer. ACM SIGGRAPH Computer Graphics, 19(3), 287–296. https://doi.org/10.1145/325165.325247
 
 * p5.js. (n.d.). noise(). Retrieved from https://p5js.org/reference/#/p5/noise
@@ -168,7 +176,5 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions
 
 * p5.js. (n.d.). Coordinate system and shapes. Retrieved from https://p5js.org/learn/coordinate-system-and-shapes.html
 
-* Mozilla Developer Network. (n.d.). EventTarget.addEventListener(). Retrieved from https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener
-
-* Mozilla Developer Network. (n.d.). JavaScript functions. Retrieved from
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions
+* Yan, S. (2024). Untitled_time6 [Generative art sketch].
+https://openprocessing.org/sketch/2693579
