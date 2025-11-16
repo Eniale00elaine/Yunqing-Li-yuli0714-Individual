@@ -25,7 +25,7 @@ Cat behavior (Mode B) — cat sprite appears in an empty cell, grows from 0 to t
 
 ### Distinctiveness from Others
 
-My prototype focuses on leveraging variations in Perlin noise values not only to drive the dynamic vibration of geometric shapes but also to govern color transformations. Furthermore, in Mode B, I incorporated dynamically changing cat avatars, adding a layer of whimsy and playfulness to the visual experience.
+My prototype focuses on leveraging variations in Perlin noise values not only to drive the dynamic vibration of geometric shapes but also to govern color transformations. Furthermore, in Mode B, I incorporated dynamically changing cat avatars (The cat image was drawn by myself), adding a layer of whimsy and playfulness to the visual experience.
 
 ### Inspiration Sources
 
