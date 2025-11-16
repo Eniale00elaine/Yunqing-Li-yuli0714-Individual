@@ -29,9 +29,9 @@ My prototype focuses on leveraging variations in Perlin noise values not only to
 
 ### Inspiration Sources
 
-#### *Broadway Boogie Woogie*
+#### *Broadway Boogie Woogie & Composition with Red, Blue and Yellow*
 
-Our primary inspiration is this abstract painting by Piet Mondrian. The varied lengths of bands and diverse rectangles that compose the artwork inspired our use of array management to construct the foundational animation effect.
+Our primary inspiration is this abstract painting by Piet Mondrian. The varied lengths of bands and diverse rectangles that compose the artwork inspired our use of array management to construct the foundational animation effect. We also draw from Mondrian’s Composition with Red, Blue and Yellow, whose clear geometric structure and balanced placement of primary colours informed our grid organisation and overall compositional logic.
 
 #### *Cat Distribution System*
 
